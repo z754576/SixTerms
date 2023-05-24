@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SixTerms",
+	"Description": "Filter and replace string sensitive terms",
+	"Category": "StringTool",
+	"CreatedBy": "DMD",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SixTerms",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
