@@ -1,5 +1,5 @@
 ﻿/*
-Copyright 2022-2023 ©DMD, Inc. All Rights Reserved.
+Copyright 2023 (C)DMD, Inc. All Rights Reserved.
 Unauthorized copying, selling or distribution of this software is strictly prohibited.
 */
 
@@ -7,6 +7,9 @@ Unauthorized copying, selling or distribution of this software is strictly prohi
 #include "AsyncSixTerm_CheckString.h"
 
 #include "SixTermsBlueprintFunctionLibrary.h"
+
+#include "Async/TaskGraphInterfaces.h"
+#include "Async/Async.h"
 
 UAsyncSixTerm_CheckString* UAsyncSixTerm_CheckString::AsyncCheckString_SixTerm(UObject* WorldContextObject, FString str)
 {

@@ -1,12 +1,18 @@
 ﻿/*
-Copyright 2022-2023 ©DMD, Inc. All Rights Reserved.
+Copyright 2023 (C)DMD, Inc. All Rights Reserved.
 Unauthorized copying, selling or distribution of this software is strictly prohibited.
 */
 
 
 #include "AsyncSixTerms_SetTable.h"
 
+
 #include "SixTermsBlueprintFunctionLibrary.h"
+
+#include "Async/TaskGraphInterfaces.h"
+#include "Async/Async.h"
+
+namespace ent = ENamedThreads;
 
 UAsyncSixTerms_SetTable* UAsyncSixTerms_SetTable::AsyncSetTable_SixTerms(UObject* WorldContextObject,UDataTable* Table)
 {

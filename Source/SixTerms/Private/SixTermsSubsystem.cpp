@@ -1,5 +1,5 @@
 ﻿/*
-Copyright 2022-2023 ©DMD, Inc. All Rights Reserved.
+Copyright 2023 (C)DMD, Inc. All Rights Reserved.
 Unauthorized copying, selling or distribution of this software is strictly prohibited.
 */
 

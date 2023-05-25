@@ -1,7 +1,8 @@
 ﻿/*
-Copyright 2022-2023 ©DMD, Inc. All Rights Reserved.
+Copyright 2023 (C)DMD, Inc. All Rights Reserved.
 Unauthorized copying, selling or distribution of this software is strictly prohibited.
 */
+
 
 #pragma once
 
@@ -68,7 +69,6 @@ struct SIXTERMS_API FSixTermStruct :public FTableRowBase
 	GENERATED_BODY()
 public:
 
-	// 使用UPROPERTY修饰符可以更方便的在蓝图中设置
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Mantra")
 		int ID = 0;
 

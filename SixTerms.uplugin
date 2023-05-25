@@ -10,15 +10,17 @@
 	"DocsURL": "https://github.com/z754576/SixTerms",
 	"MarketplaceURL": "",
 	"SupportURL": "",
+	"EngineVersion": "5.2.0",
 	"CanContainContent": true,
-	"IsBetaVersion": true,
-	"IsExperimentalVersion": false,
-	"Installed": false,
+	"Installed": true,
 	"Modules": [
 		{
 			"Name": "SixTerms",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
 		}
 	]
 }
